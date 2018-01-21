@@ -1,0 +1,41 @@
+
+
+    <!--Carousel Wrapper-->
+    <mdb-carousel class="carousel slide carousel-fade" [interval]="myInterval" [noWrap]="noWrapSlides" [(activeSlide)]="activeSlideIndex" (activeSlideChange)="activeSlideChange()" [animation]="'fade'">
+      <mdb-slide *ngFor="let slide of slides; let index=index">
+        <img [src]="slide.image"  >
+        <div class="carousel-caption">
+          <h4>Slide {{index}}</h4>
+          <p>{{slide.image}}</p>
+        </div>
+      </mdb-slide>
+    </mdb-carousel>
+    <!--/.Carousel Wrapper-->
+
+
+<div class="banner_bottom_agile_info">
+  <div class="container">
+    <div class="banner_bottom_agile_info_inner_w3ls">
+      <div class="col-md-6 wthree_banner_bottom_grid_three_left1 grid">
+        <figure class="effect-roxy">
+          <img src="../../../../assets/img/smallbanner1.jpg" alt=" " class="img-responsive" />
+          <figcaption>
+            <h3><span>F</span>all Ahead</h3>
+            <p>New Arrivals</p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="col-md-6 wthree_banner_bottom_grid_three_left1 grid">
+        <figure class="effect-roxy">
+          <img src="../../../../assets/img/smallbanner2.jpg" alt=" " class="img-responsive" />
+          <figcaption>
+            <h3><span>F</span>all Ahead</h3>
+            <p>New Arrivals</p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</div>
+

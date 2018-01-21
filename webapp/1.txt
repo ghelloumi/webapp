@@ -1,0 +1,16 @@
+ng set defaults.styleExt scss^C
+npm i angular-bootstrap-md --save 
+npm install --save @ng-bootstrap/ng-bootstrap
+ ng g c layout/pages/modal
+ng g m layout/components/singnin
+
+npm install --save @angular/animations
+npm install --save @angular/material @angular/cdk
+npm install --save font-awesome angular-font-awesome
+
+npm install --save-dev @types/bootstrap@4.0.0-beta
+npm install --save-dev @types/jquery
+
+ng g m /layout/home --rooting
+npm install @angular-devkit/core
+

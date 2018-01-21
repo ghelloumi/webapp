@@ -1,0 +1,92 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+#spring project
+*.java.hsp
+*.sonarj
+*.sw*
+.DS_Store
+.settings
+.springBeans
+bin
+build.sh
+integration-repo
+ivy-cache
+jxl.log
+jmx.log
+derby.log
+spring-test/test-output/
+.gradle
+argfile*
+pom.xml
+activemq-data/
+classes/
+/build
+buildSrc/build
+/spring-*/build
+/src/asciidoc/build
+target/
+
+# Eclipse artifacts, including WTP generated manifests
+.classpath
+.project
+spring-*/src/main/java/META-INF/MANIFEST.MF
+
+# IDEA artifacts and output dirs
+*.iml
+*.ipr
+*.iws
+.idea
+out
+test-output
+atlassian-ide-plugin.xml
+.gradletasknamecache
+
+
+# compiled output
+webapp/dist
+webapp/tmp
+webapp/out-tsc
+
+# dependencies
+webapp/node_modules
+
+# IDEs and editors
+webapp/.idea
+webapp/.project
+webapp/.classpath
+webapp/.c9/
+webapp/*.launch
+webapp/.settings/
+webapp/*.sublime-workspace
+.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+webapp/.sass-cache
+webapp/connect.lock
+webapp/coverage
+webapp/libpeerconnection.log
+webapp/npm-debug.log
+webapp/testem.log
+webapp/typings
+
+# e2e
+webapp/e2e/*.js
+webapp/e2e/*.map
+
+# System Files
+.DS_Store
+Thumbs.db
+webapp/.DS_Store
+webapp/Thumbs.db
